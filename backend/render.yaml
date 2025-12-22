@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: growmore-backend
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGODB_URI
+        value: mongodb+srv://growmoredigital9098:Gourav909835@cluster0.iyjgbii.mongodb.net/growmore_digital?retryWrites=true&w=majority&appName=Cluster0

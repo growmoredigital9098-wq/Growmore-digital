@@ -20,7 +20,7 @@ const Footer = () => {
               infogrowmoredigitals@gmail.com
             </Typography>
             <Typography variant="body1">
-              Purshottam Agarwal Marg, Bicholi Mardana, Indore, Madhya Pradesh 452016
+            Location- G-1,ved homes,kamyani nagar rau,453331
             </Typography>
           </Grid>
 
@@ -31,7 +31,7 @@ const Footer = () => {
             <Box sx={{ display: 'flex', gap: 2 }}>
               <IconButton
                 component={Link}
-                href="https://www.instagram.com/growmore_digital01"
+                href="https://www.instagram.com/growmore_digital01/"
                 target="_blank"
                 aria-label="Instagram"
                 sx={{
