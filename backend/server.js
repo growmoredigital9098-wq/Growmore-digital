@@ -115,7 +115,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:5173', 'https://growmore-digital.vercel.app/'],
+  origin: ['http://localhost:3000', 'http://localhost:5173', 'https://growmore-digital.vercel.app'],
   credentials: true,
 }));
 app.use(express.json());
